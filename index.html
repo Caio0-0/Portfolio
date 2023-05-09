@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style-menu.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://kit.fontawesome.com/532df4697a.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="cabesalho-menu">
+            <div class="logo"><i class="fa-regular fa-hourglass"></i><p id="letra-ovo">CF</p></div>
+            <div class="abrir-menu"><i class="fa-solid fa-bars"></i></div>
+            <ul class="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#experiencia">Experiência</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <div class="fechar-menu"><i class="fa-solid fa-xmark"></i></div>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        
+        <section id="home" class="conteudo-home">
+            <div class="conteudo-home-escrito">
+                <p>ÓLA,EU SOU</p>
+                <H2>CAIO FERNANDO</H2>
+                <p>DESENVOLVEDOR FRONT-END</p>
+                <span class="redes">
+                    <a href="https://github.com/Caio0-0" target="_blank"><i class="fa fa-github"></i><p>GitHub</p></a>
+                    <a href="https://www.linkedin.com/uas/login-submit" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><p>Linkedin</p></a>
+                </span>
+            </div>
+            <picture class="imagem-home"><img src="imagens/page-cuate-600px.png" alt="homem mechendo no computador"></picture>
+        </section>
+
+        <section id="sobre" class="conteudo-sobre" data-anime="left">
+            <picture class="minha-imagem">
+                <img src="imagens/minha-foto-300px.jpg" alt="Foto do caio fernando cardoso de sousa">
+            </picture>
+            <div class="conteudo-sobre-escrito">
+                <h2>SOBRE MIM</h2>
+                <P class="lugar">Teresina,Piauí</P>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, perferendis. Maxime consequuntur quasi ullam repellendus inventore possimus, nobis sit ab. Ipsam aperiam voluptas sunt sequi commodi ipsum impedit corrupti officia? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore adipisci qui assumenda praesentium? Harum praesentium repudiandae, nesciunt debitis explicabo dignissimos consequuntur tempore omnis esse repellat quisquam a in quia nisi.</p>
+            </div>
+        </section>
+
+        <section id="experiencia" class="conteudo-experiencia" data-anime="left">
+            <h2>MINHA EXPERIÊNCIA</h2>
+            <div class="conteudo-logos">
+
+                <div class="logo-ex" id="html">
+                    <i class="fa fa-html5" aria-hidden="true"></i>     
+                </div>
+                
+                <div class="logo-ex" id="css">
+                    <i class="fa-brands fa-css3-alt"></i>    
+                </div>
+
+                <div class="logo-ex" id="js">
+                    <i class="fab fa-js"></i>   
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos" class="conteudo-projetos" data-anime="left">
+            <h2>MEUS PROJETOS</h2>
+            <div class="projetos-1">
+                <div class="pj">
+                    <img src="imagens/calculadora.png" alt="Imagem do site da calculadora">
+                    <a href="https://caio0-0.github.io/Projeto-Calculadora/" target="_blank">Calculadora</a>
+                </div>
+                <div class="pj">
+                    <img src="imagens/login-500px.png" alt="Imagem do site da login">
+                    <a href="https://caio0-0.github.io/Projeto-Login/projeto-login/" target="_blank">Login</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="scripts/celular.js"></script>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/scroll.js"></script>
+</body>
+</html>
