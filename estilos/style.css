@@ -17,7 +17,6 @@ html{
 
 .conteudo-principal{
     margin-top: 100px;
-    margin-left: 20px;
 }
 /*Conteudo home */
 .conteudo-home,.conteudo-sobre{
@@ -57,6 +56,7 @@ html{
 /*Conteudo sobre mim*/
 .conteudo-sobre{
     margin-top: 150px;
+    margin-left: 10px;
 }
 .minha-imagem img{
     margin-right: 10px;
@@ -86,25 +86,29 @@ html{
 }
 /*minha experiencias*/
 .conteudo-experiencia{
-    display: block;
-    text-align: center;
     margin-top: 150px;
 }
 .conteudo-experiencia .conteudo-logos {
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+   
 }
 .conteudo-experiencia h2{
-    font-size: 2em;
+    font-size: 3em;
+    text-align: center;
     margin-bottom: 30px;
 }
 .logo-ex {
     font-size: 15em;
-    margin-left: 70px;
-    display: inline-block;
+    margin-left: 30px;
+
     
 }
 .logo-ex i{
     transition: 0.5s ease;
+   
 }
 #html i:hover{
     color: #eb8c32;
@@ -128,7 +132,7 @@ html{
     margin-bottom: 150px;
 }
 .conteudo-projetos h2{
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .projetos-1{
@@ -163,20 +167,106 @@ html{
 }
 /*Navegação*/
 /*animação*/
-[data-anime]{
-    opacity: 0;
-    transition: .3s;
-}
+@media screen and (max-width:900px) {
 
-[data-anime="left"]{
-    transform: translate3d(-50px,0,0);
-}
+    .conteudo-home-escrito{
+        font-size: 1.6em;
+        padding: 10px;
+    }
+    .redes p,.redes a{
+        padding: 5px;
+        font-size: 15px;
+    
+    }
+    .imagem-home img{
+        height: 270px;
+    }
+    /*Conteudo sobre mim*/
+    .minha-imagem img{
+        margin-right: 10px;
+        width: 150px;
+        border-left:3px solid #EB5332;
+        transition: 0.5s ease;
+    }
+    .conteudo-sobre-escrito{
+        display: block;
+    }
+    .conteudo-sobre-escrito h2{
+        font-size: 1.5em;
+        padding-left: 10px;
+        border-left:1px solid #EB5332;
+    }
 
-[data-anime="right"]{
-    transform: translate3d(-50px,0,0);
-}
+    .conteudo-sobre-escrito p {
+        margin-top: 10px;
+        font-size: 1em;
+    }
+    /*minha experiencias*/
 
-[data-anime].animation{
-    opacity: 1;
-    transform: translate3d(0px,0px,0px);
+    .conteudo-experiencia .conteudo-logos {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .conteudo-experiencia h2{
+        font-size: 2em;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .logo-ex {
+        font-size: 6em;
+        margin-left: 30px;
+    }
+    #html i:hover{
+        color: #eb8c32;
+        transition: 0.3s ease;
+    }
+    #css  i:hover{
+        color: #3a1cbe;
+        transition: 0.3s ease;
+    }
+    #js  i:hover{
+        color: #eeff00;
+        transition: 0.3s ease;
+    }
+    /*Meus projetos*/
+
+    .projetos-1{
+        display: block;   
+        margin-top: 60px;
+        
+    }
+    .conteudo-projetos h2{
+        font-size: 2em;
+    }
+    .pj{
+        display: block;
+        margin: auto;
+    }
+    .pj a{
+        display: block;
+        text-align: center;
+        margin: auto;
+        text-decoration: none;
+        color: white;
+        font-size: 1em;
+        padding: 5px;
+        border: 1px solid white;
+        transition: 0.5s ease;
+        margin-bottom: 10px;
+        width: 400px;
+    }
+    .pj a:hover{
+        color: #EB5332;
+        border: 1px solid #EB5332;
+        border-radius: 10px 0px;
+        transition: 0.5s ease;
+    }
+    .pj img{
+        margin-bottom: 10px;
+        width:400px;
+        border-left: 6px solid #eb5432da;
+    }
 }
