@@ -183,7 +183,8 @@ html{
     
     }
     .imagem-home img{
-        height: 200px;
+        height: 190px;
+        padding-right: 10px;
     }
     /*Conteudo sobre mim*/
     .minha-imagem img{
