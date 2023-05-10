@@ -88,7 +88,7 @@ html{
 }
 /*minha experiencias*/
 .conteudo-experiencia{
-    margin-top: 150px;
+    margin-top: 166px;
 }
 .conteudo-experiencia .conteudo-logos {
     display: flex;
@@ -168,12 +168,20 @@ html{
     width:400px;
     border-left: 6px solid #eb5432da;
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    width: 5px;
+    background-color: #af3c25;
+    border-radius: 10px;
+}
 /*Navegação*/
 /*animação*/
 @media screen and (max-width:900px) {
 
     .conteudo-home-escrito{
-        font-size: 1.6em;
+        font-size: 1em;
         padding: 10px;
         margin-left: 20px;
     }
@@ -181,6 +189,9 @@ html{
         padding: 5px;
         font-size: 15px;
     
+    }
+    #txt-front{
+        margin-bottom: 10px;
     }
     .imagem-home img{
         height: 190px;
