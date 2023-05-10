@@ -186,16 +186,16 @@ html{
         margin-left: 20px;
     }
     .redes p,.redes a{
-        padding: 5px;
-        font-size: 15px;
+        padding: 6px;
+        font-size: 12px;
     
     }
     #txt-front{
         margin-bottom: 10px;
     }
     .imagem-home img{
-        height: 190px;
-        padding-right: 10px;
+        height: 170px;
+       
     }
     /*Conteudo sobre mim*/
     .minha-imagem img{
