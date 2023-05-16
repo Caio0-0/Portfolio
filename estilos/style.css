@@ -254,6 +254,11 @@ html{
         margin-top: 60px;
         
     }
+    .projetos-2{
+        display: block;   
+        margin-top: 60px;
+    }
+
     .conteudo-projetos h2{
         font-size: 2em;
     }
