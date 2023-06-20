@@ -1,293 +1,220 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+/*cor
+f6b325
+#F6B325
+#423F50
 
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+*/
 *{
     padding: 0px;
     margin: 0px;
+
 }
 body{
-    background-color: #1C1718;
+    background-color: #423F50;
     color: white;
-    font-family: 'Abel', sans-serif;
-}
-html{
-    scroll-behavior: smooth;
-}
+    font-family: 'Quicksand', sans-serif;
 
-
-.conteudo-principal{
-    margin-top: 100px;
 }
-/*Conteudo home */
-.conteudo-home,.conteudo-sobre{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.conteudo-home-escrito{
-    font-size: 3em;
-    padding: 10px;
-}
-.conteudo-home-escrito p{
-    color: #afafaf;
-}
-
-.redes a{
-    border: 1px solid white;
-    border-radius: 10px;
-    transition: 0.5s ease;
-}
-.redes a:hover{
-    border: 1px solid #EB5332;
-}
-.redes i{
-    color: #EB5332;
-}
-.redes p,.redes a{
-    display: inline;
-    text-decoration: none;
-    padding: 10px;
-    font-size: 25px;
-    color: white;
-}
-.imagem-home img{
-    height: 500px;
-}
-/*Conteudo sobre mim*/
-.conteudo-sobre{
-    margin-top: 150px;
-    margin-left: 10px;
-}
-.minha-imagem img{
-    margin-right: 10px;
-    border-left:5px solid #EB5332;
-    transition: 0.5s ease;
-}
-.minha-imagem img:hover{
-    border-radius: 20px 0px;
-    box-shadow: 3px 5px 0px #b14026a6;
-    transition: ease 0.5s;
-}
-.conteudo-sobre-escrito{
-    width: 670px;
-    text-align: justify;
-}
-.conteudo-sobre-escrito h2{
-    font-size: 2.5em;
-    padding-left: 10px;
-    border-left:1px solid #EB5332;
-}
-.lugar{
-    color: #af3c25;
-}
-.conteudo-sobre-escrito p {
-    margin-top: 10px;
-    padding-left: 20px;
-    padding-right:10px ;
-    font-size: 1.5em;
-}
-/*minha experiencias*/
-.conteudo-experiencia{
-    margin-top: 166px;
-}
-.conteudo-experiencia .conteudo-logos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+/*Menu*/
+.icone img{
+    width: 120px;
+    margin-right: 50px;
    
 }
-.conteudo-experiencia h2{
-    font-size: 3em;
-    text-align: center;
-    margin-bottom: 30px;
-}
-.logo-ex {
-    font-size: 15em;
-    margin-left: 30px;
-    margin-right: 20px;
-
-    
-}
-.logo-ex i{
-    transition: 0.5s ease;
-   
-}
-#html i:hover{
-    color: #eb8c32;
-    transition: 0.3s ease;
-}
-#css  i:hover{
-    color: #3a1cbe;
-    transition: 0.3s ease;
-}
-#js  i:hover{
-    color: #eeff00;
-    transition: 0.3s ease;
-}
-
-/*Meus projetos*/
-
-.conteudo-projetos{
-    display: block;
-    text-align: center;
-    margin-top: 150px;
-    margin-bottom: 150px;
-}
-.conteudo-projetos h2{
-    font-size: 3em;
-}
-
-.projetos-1{
-    display: flex;   
-    margin-top: 60px;
-    
-}
-.pj{
-    display: block;
+.cabesalho-menu{
+    display: flex;
+    align-items: center;
+    justify-items: center;
     margin: auto;
+    width: 85vw;
+  
+    justify-content: space-between;
 }
-.pj a{
-    display: block;
-    margin-top: 5px;
-    text-decoration: none;
+.cabesalho-menu ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    
+}
+.cabesalho-menu ul li{
+    margin-right: 20px;
+}
+.cabesalho-menu ul li a{
     color: white;
+    text-decoration: none;
+}
+/*conteudo-principal*/
+.conteudo-principal{
+    margin: auto;
+    width: 98.7vw;
+    height: 160vh;
+  
+    background-color: #423F50;
+}
+/*conteudo-home*/
+.conteudo-home{
+    display: flex;
+    width: 85vw;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/*Sobre mim*/
+.sobre-mim{
+    width: 400px;
+}
+#imagem img{
+    width: 400px;
+}
+#sobre{
+
+
+}
+.im {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.nome{
+    font-size: 3.6em;
+    margin-bottom: 15px;
+}
+.linha{
+    width: 150px;
+    height: 3px;
+    margin-bottom: 15px;
+    background-color: #F3B727;
+}
+#servico{
+    width: 400px;
+   
+}
+
+#text{
+    margin-bottom: 15px;
+}
+#more{
+    text-decoration: none;
+    color: #F3B727;
+}
+
+/*minha-rede*/
+.conteudo-sobre{
+    position: relative;
+}
+.redes{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 85vw;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.342);
+    margin: auto;
+    background-color: #423F50;
+    padding: 10px; 
+}
+#rede1,#rede2{
+    align-items: center;
+    font-size: 5em;
+    margin-right: 40px;
+    color: #ffffff;
+}
+#rede1:hover{
+    color: #016DA8;
+    transition: .5s ease;
+}
+#rede2:hover{
+    color: black;
+    transition: .5s ease;
+}
+/*minha-experiencia*/
+.minha-experiencia{
+    display: flex;
+    flex-direction: column;
+    width: 98.7vw;
+    height: 110vh;
+    background-color: #282834;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.minha-experiencia h2{
+    font-size: 4em;
+}
+.experiencia{
+    display: flex;
+    width: 85vw;
+    text-align: center;
+    margin-top: 20px;
+    
+}
+#ex{
+    transition: 1s ease;
+    background-color: #423F50;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.342);
+    padding: 20px;
+    width: 390px;
+    height: 310px;
+ 
+}
+#ex:hover{
+    width: 395px;
+    height: 310px;
+}
+.cont-ecrito p{
     font-size: 1.2em;
-    padding: 10px;
-    border: 1px solid white;
-    transition: 0.5s ease;
+    align-items: center;
+}
+.html i,.css i,.js i{
+    font-size: 10em;
+}
+.html:hover{
+    color: #E56027;
+    transition: 1s ease;
     
 }
-.pj a:hover{
-    color: #EB5332;
-    border: 1px solid #EB5332;
-    border-radius: 10px 0px;
-    transition: 0.5s ease;
+.css:hover{
+    color: #146CAD;
+    transition: 1s ease;
 }
-.pj img{
-    width:400px;
-    border-left: 6px solid #eb5432da;
+.js:hover{
+    color: #EAD41C;
+    transition: 1s ease;
 }
-::-webkit-scrollbar{
-    width: 10px;
-}
-::-webkit-scrollbar-thumb{
-    width: 5px;
-    background-color: #af3c25;
-    border-radius: 10px;
-}
-/*Navegação*/
-/*animação*/
-@media screen and (max-width:900px) {
+/*conteudo-projetos*/
+.conteudo-projetos{
+    width: 98.7vw;
+    height: 100vh;
+    background-color: #423F50;
 
-    .conteudo-home-escrito{
-        font-size: 1em;
-        padding: 10px;
-        margin-left: 20px;
-    }
-    .redes p,.redes a{
-        padding: 6px;
-        font-size: 12px;
+}
+.tamanho{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85vw;
+}
+.conteiner{
+    width: 85vw;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10vh 10vh;
+    grid-template-areas:
+    "a1 a2" 
+    "a3 a4"
+    "a5 a6";
     
-    }
-    #txt-front{
-        margin-bottom: 10px;
-    }
-    .imagem-home img{
-        height: 170px;
-       
-    }
-    /*Conteudo sobre mim*/
-    .minha-imagem img{
-        margin-right: 10px;
-        width: 150px;
-        border-left:3px solid #EB5332;
-        transition: 0.5s ease;
-    }
-    .conteudo-sobre-escrito{
-        display: block;
-    }
-    .conteudo-sobre-escrito h2{
-        font-size: 1.5em;
-        padding-left: 10px;
-        border-left:1px solid #EB5332;
-    }
+}
 
-    .conteudo-sobre-escrito p {
-        margin-top: 10px;
-        font-size: 1em;
-    }
-    /*minha experiencias*/
-
-    .conteudo-experiencia .conteudo-logos {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-
-    }
-    .conteudo-experiencia h2{
-        font-size: 2em;
-        text-align: center;
-        margin-bottom: 30px;
-    }
-    .logo-ex {
-        font-size: 6em;
-        margin-left: 30px;
-    }
-    #html i:hover{
-        color: #eb8c32;
-        transition: 0.3s ease;
-    }
-    #css  i:hover{
-        color: #3a1cbe;
-        transition: 0.3s ease;
-    }
-    #js  i:hover{
-        color: #eeff00;
-        transition: 0.3s ease;
-    }
-    /*Meus projetos*/
-
-    .projetos-1{
-        display: block;   
-        margin-top: 60px;
-        
-    }
-    .projetos-2{
-        display: block;   
-        margin-top: 60px;
-    }
-
-    .conteudo-projetos h2{
-        font-size: 2em;
-    }
-    .pj{
-        display: block;
-        margin: auto;
-    }
-    .pj a{
-        display: block;
-        text-align: center;
-        margin: auto;
-        text-decoration: none;
-        color: white;
-        font-size: 1em;
-        padding: 5px;
-        border: 1px solid white;
-        transition: 0.5s ease;
-        margin-bottom: 10px;
-        width: 300px;
-    }
-    .pj a:hover{
-        color: #EB5332;
-        border: 1px solid #EB5332;
-        border-radius: 10px 0px;
-        transition: 0.5s ease;
-    }
-    .pj img{
-        margin-bottom: 10px;
-        width:300px;
-        border-left: 6px solid #eb5432da;
-    }
+.conteiner{
+    display: flex;
+    width: 85vw;
+}
+.projetos1{
+    background-color: #0606da;
+    height: 10px;
+    width: 85vw;
 }

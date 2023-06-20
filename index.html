@@ -13,87 +13,87 @@
 </head>
 <body>
     <header>
-        <nav class="cabesalho-menu">
-            <div class="logo"><i class="fa-regular fa-hourglass"></i><p id="letra-ovo">CF</p></div>
-            <div class="abrir-menu"><i class="fa-solid fa-bars"></i></div>
-            <ul class="menu">
+        <nav class="cabesalho-menu"> 
+            <ul>
+                <li><i class="icone"><img src="imagens/icone.png" alt=""></i></li>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="#experiencia">Experiência</a></li>
-                <li><a href="#projetos">Projetos</a></li>
-                <div class="fechar-menu"><i class="fa-solid fa-xmark"></i></div>
+                <li><a href="#experiencia">experiencia</a></li>
+                <li><a href="#portifolio">Portifolio</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
+            <div class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+         
         </nav>
     </header>
-
     <main class="conteudo-principal">
-        
         <section id="home" class="conteudo-home">
-            <div class="conteudo-home-escrito">
-                <p>ÓLA,EU SOU</p>
-                <H2>CAIO FERNANDO</H2>
-                <p id="txt-front">DESENVOLVEDOR FRONT-END</p>
-                <span class="redes">
-                    <a href="https://github.com/Caio0-0" target="_blank"><i class="fa fa-github"></i><p>GitHub</p></a>
-                    <a href="https://www.linkedin.com/uas/login-submit" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i><p>Linkedin</p></a>
-                </span>
+            <div class="sobre-mim" id="sobre">
+                <p class="im">I'm</p>
+                <h1 class="nome"> Caio Fernando</h1>
+                <div class="linha"></div>
+                <p class="conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nisi amet placeat laborum blanditiis sit iure nihil commodi! Quas tempora mollitia ipsam repellat, error odio qui minus deleniti maiores porro!</p>
             </div>
-            <picture class="imagem-home"><img src="imagens/page-cuate-600px.png" alt="homem mechendo no computador"></picture>
-        </section>
-
-        <section id="sobre" class="conteudo-sobre" data-anime="left">
-            <picture class="minha-imagem">
-                <img src="imagens/minha-foto-300px.jpg" alt="Foto do caio fernando cardoso de sousa">
-            </picture>
-            <div class="conteudo-sobre-escrito">
-                <h2>SOBRE MIM</h2>
-                <P class="lugar">Teresina,Piauí</P>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, perferendis. Maxime consequuntur quasi ullam repellendus inventore possimus, nobis sit ab. Ipsam aperiam voluptas sunt sequi commodi ipsum impedi</p>
+            <div class="sobre-mim" id="imagem"><img src="imagens/1f913.png" alt=""></div>
+            <div class="sobre-mim" id="servico">
+                <p id="text">Serviço</p>
+                <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum quo ut similique laborum repellend.</p>
+                <a href="" id="more">show more <i class="fa-solid fa-arrow-right"></i></a>
             </div>
         </section>
 
-        <section id="experiencia" class="conteudo-experiencia" data-anime="left">
-            <h2>MINHA EXPERIÊNCIA</h2>
-            <div class="conteudo-logos">
+        <section id="redes" class="minha-rede" >
 
-                <div class="logo-ex" id="html">
-                    <i class="fa fa-html5" aria-hidden="true"></i>     
+            <div class="redes">
+                <a href="github.com" target="_blank"><i  id="rede1" class="fa-brands fa-linkedin"></i></a>
+                <a href="linkedin.com" target="_blank"><i id="rede2"  class="fa-brands fa-github"></i></a>
+            </div>
+
+        </section>
+
+        <section class="minha-experiencia">
+            <h2>Experiencia</h2>
+            <div class="experiencia">
+                <div class="html" id="ex">
+                    <i class="fa-brands fa-html5"></i>
+                    <p id="cont-ecrito">Possu conhesimento de Html5,conhesimento como grid,flex e flex box, responsivo etc</p>
                 </div>
+                <div class="css"  id="ex">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <p  id="cont-ecrito">Possu conhesimento de Css3 com a criação de animação é a recriação de modelos de site baseado no design proposto</p>
+                </div>
+                <div class="js"  id="ex">
+                    <i class="fa-brands fa-square-js"></i>
+                    <p  id="cont-ecrito">Possu conhesimento de Java Script basico para avançado conhecimento de estutura da dados em js alem de conhecimento com o manipulação do DOM junto com conhecimento de json </p>
+                </div>
+            </div>
+
+        </section>
+
+
+        <section id="projetos" class="conteudo-projetos">
+            <h1>Meu Portifolio</h1>
+            <div class="conteiner">
                 
-                <div class="logo-ex" id="css">
-                    <i class="fa-brands fa-css3-alt"></i>    
+                <div class="projetos1" id="pj">
+
+                </div>
+                <div class="projetos2" id="pj">
+
+                </div>
+                <div class="projetos3" id="pj">
+
                 </div>
 
-                <div class="logo-ex" id="js">
-                    <i class="fab fa-js"></i>   
+                <div class="projetos4" id="pj">
+
                 </div>
             </div>
         </section>
+        <footer>
 
-        <section id="projetos" class="conteudo-projetos" data-anime="left">
-            <h2>MEUS PROJETOS</h2>
-            <div class="projetos-1">
-                <div class="pj">
-                    <img src="imagens/calculadora.png" alt="Imagem do site da calculadora">
-                    <a href="https://caio0-0.github.io/Projeto-Calculadora/" target="_blank">Calculadora</a>
-                </div>
-                <div class="pj">
-                    <img src="imagens/login-500px.png" alt="Imagem do site da login">
-                    <a href="https://caio0-0.github.io/Projeto-Login/projeto-login/" target="_blank">Login</a>
-                </div>
-            </div>
-            <div class="projetos-1">
-                <div class="pj">
-                    <img src="imagens/catalogo.png" alt="Imagem do site de catalogo">
-                    <a href="https://caio0-0.github.io/Projeto-Catalogo/">Catalogo</a>
-                </div>
-                <div class="pj">
-                    <img src="imagens/lend-Page.png" alt="Imagem do site de lead page">
-                    <a href="https://caio0-0.github.io/Projeto-LandingPage/">Landing Page</a>
-                </div>
-            </div>
-            <div></div>
-        </section>
+        </footer>
     </main>
 
     <script src="scripts/celular.js"></script>
