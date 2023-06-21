@@ -14,13 +14,18 @@
 <body>
     <header>
         <nav class="cabesalho-menu"> 
-            <ul>
-                <li><i class="icone"><img src="imagens/icone.png" alt=""></i></li>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#experiencia">experiencia</a></li>
-                <li><a href="#portifolio">Portifolio</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
+            <div class="navegar">
+                <div class="icone">
+                    <img src="imagens/logo-emoji.png" alt="">
+                    <p>Caio</p>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#experiencia">experiencia</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </div>
             <div class="menu">
                 <i class="fa-solid fa-bars"></i>
             </div>
@@ -35,7 +40,7 @@
                 <div class="linha"></div>
                 <p class="conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nisi amet placeat laborum blanditiis sit iure nihil commodi! Quas tempora mollitia ipsam repellat, error odio qui minus deleniti maiores porro!</p>
             </div>
-            <div class="sobre-mim" id="imagem"><img src="imagens/1f913.png" alt=""></div>
+            <div class="sobre-mim" id="imagem"><img src="imagens/.png" alt=""></div>
             <div class="sobre-mim" id="servico">
                 <p id="text">Serviço</p>
                 <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum quo ut similique laborum repellend.</p>
@@ -57,11 +62,11 @@
             <div class="experiencia">
                 <div class="html" id="ex">
                     <i class="fa-brands fa-html5"></i>
-                    <p id="cont-ecrito">Possu conhesimento de Html5,conhesimento como grid,flex e flex box, responsivo etc</p>
+                    <p id="cont-ecrito">Possu conhesimento de Html5 e suas diverssas tegs,</p>
                 </div>
                 <div class="css"  id="ex">
                     <i class="fa-brands fa-css3-alt"></i>
-                    <p  id="cont-ecrito">Possu conhesimento de Css3 com a criação de animação é a recriação de modelos de site baseado no design proposto</p>
+                    <p  id="cont-ecrito">Possu conhesimento de Css3 conhesimento como grid,flex e flex box, responsivo etc.</p>
                 </div>
                 <div class="js"  id="ex">
                     <i class="fa-brands fa-square-js"></i>
@@ -73,28 +78,71 @@
 
 
         <section id="projetos" class="conteudo-projetos">
-            <h1>Meu Portifolio</h1>
+            <p>Meu Projetos</p>
             <div class="conteiner">
                 
                 <div class="projetos1" id="pj">
-
+                    <img src="imagens/LandingPage-pj.png" alt="">
+                    <div class="mais">
+                        <a href="">Visitar</a>
+                        <a href="">Código</a>
+                    </div>
                 </div>
                 <div class="projetos2" id="pj">
-
+                    <img src="imagens/login-pj.png" alt="">
+                    <div class="mais">
+                        <a href="">Visitar</a>
+                        <a href="">Código</a>
+                    </div>
                 </div>
                 <div class="projetos3" id="pj">
-
+                    <img src="imagens/provisorio.png" alt="">
+                    <div class="mais">
+                        <a href="">Visitar</a>
+                        <a href="">Código</a>
+                    </div>
                 </div>
-
                 <div class="projetos4" id="pj">
+                    <img src="imagens/provisorio.png" alt="">
+                    <div class="mais">
+                        <a href="">Visitar</a>
+                        <a href="">Código</a>
+                    </div>
+                </div> 
+                
+            </div>
+            <div class="mais-projetos"><a href="">Ver mais</a></div>
+        </section>
 
+        <footer class="footer">
+            <div class="conteudo-footer">
+                <div class="contact" id="cont">
+                    <img src="imagens/logo.png" alt="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet officia iste quae. Molestiae, quis fugit modi</p>
+                    <p><i class="fa-brands fa-whatsapp"></i> 9929319323</p>
+                    <p><i class="fa-solid fa-envelope"></i> caiofernandocardoso6@gmail.com</p>
+                </div>
+                <div class="links" id="cont">
+                    <h4>Quick links</h4>
+                    <ul>
+                        <li>fsdfsf</li>
+                        <li>fsfsdfs</li>
+                        <li>fsfsdfs</li>
+                        <li>fsfdfdfsf</li>
+                    </ul>
+                </div>
+                <div class="input" id="cont">
+                    <h4>Contact</h4>
+                    <input type="email" name="" id="email" placeholder="Your email address">
+                   <textarea name="" id="msg" cols="30" rows="10" placeholder="Mensage..."></textarea>
+
+                    <input type="submit" value="Enviar" id="envia" >
+          
                 </div>
             </div>
-        </section>
-        <footer>
-
         </footer>
     </main>
+  
 
     <script src="scripts/celular.js"></script>
     <script src="scripts/menu.js"></script>
