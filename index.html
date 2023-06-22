@@ -5,166 +5,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="estilos/style-menu.css">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/style-menu.css">
+    <link rel="stylesheet" href="estilos/outrosStyle.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <script src="https://kit.fontawesome.com/532df4697a.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
-    <header>
+    <header class="cabecalho">
         <nav class="cabesalho-menu"> 
-            <div class="navegar">
+            <ul class="menu">
                 <div class="icone">
                     <img src="imagens/logo-emoji.png" alt="">
                     <p>Caio</p>
                 </div>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#experiencia">experiencia</a></li>
-                    <li><a href="#portifolio">Portifolio</a></li>
-                    <li><a href="#about">About</a></li>
-                </ul>
-            </div>
-            <div class="menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-         
+                <li><a href="#home">Home</a></li>
+                <li><a href="#experiencia">experiencia</a></li>
+                <li><a href="#portifolio">Portifolio</a></li>
+                <li><a href="#about">About</a></li>
+                <li>
+                    <div class="fechar-menu"><i class="fa-solid fa-xmark"></i></div>
+                </li>
+            </ul>
+            <div class="abrir-menu"><i class="fa-solid fa-bars"></i></div>
         </nav>
     </header>
-    <main class="conteudo-principal">
-        <section id="home" class="conteudo-home">
-            <div class="sobre-mim" id="sobre">
-                <p class="im">I'm</p>
-                <h1 class="nome"> Caio Fernando</h1>
-                <div class="linha"></div>
-                <p class="conteudo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, nisi amet placeat laborum blanditiis sit iure nihil commodi! Quas tempora mollitia ipsam repellat, error odio qui minus deleniti maiores porro!</p>
-            </div>
-            <div class="sobre-mim" id="imagem"><img src="imagens/.png" alt=""></div>
-            <div class="sobre-mim" id="servico">
-                <p id="text" class="serv">Serviço</p>
-                <p id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsum quo ut similique laborum repellend.</p>
-                <a href="" id="more">show more <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </section>
+    <div class="circulo">
+        <div id="circulo">
 
-        <div class="redes">
-            <a href="github.com" target="_blank"><i  id="rede1" class="fa-brands fa-linkedin"></i></a>
-            <a href="linkedin.com" target="_blank"><i id="rede2"  class="fa-brands fa-github"></i></a>
         </div>
+    </div>
+    <section class="home">
+        <div class="sobre-mim">
+            <p id="eu">I'm</p>
+            <h2 id="nome">Caio Fernando</h1>
+            <div id="linha"></div>
+            <p id="sobreM-txt">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo temporibus similique magni distinctio cum alias reiciendis.</p>
+        </div>
+        <div class="minha-foto">
+            <img src="imagens/imagem-melhorada-removebg-preview.png" alt="">
+        </div>
+        <div class="servico">
+            <p id="serv-txt">Serviço</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut ad minus optio qu</p>
+        </div>
+        <div class="minha-foto-celo">
+            <img src="imagens/imagem-melhorada-removebg-preview.png" alt="">
+        </div>
+    </section>
 
+    <div class="contact">
+        <div class="conteiner">
+            <div class="rede" id="link">
+                <img src="imagens/LinkedIn.png" alt="">
+            </div>
+            <div class="rede" id="git">
+                <img src="imagens/PikPng.com_github-png_1375039.png" alt="">
+            </div>
+            <div class="rede" id="what">
+                <img src="imagens/DSxOAUB0raA.png" alt="">
+            </div>
+        </div>
+    </div>
 
-        <section class="minha-experiencia">
-            <div class="experiencia">
-                <div class="text-tec">
-                    <h2>Tecnologias que tenho experiencia</h2>
-                    <p>Aqui tem umas tecnologia ando tenho foco principal para estudo e para aprender</p>
+    <section class="minha-experiencia">
+        <div class="experiencia">
+            <div class="conteudo-txt">
+                <h2>Minha experiencia</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, cumque dignissimos asperiores cupiditate rem</p>
+            </div>
+            <div class="icone-experiencia">
+                <div class="tecnologias" id="html"><i class="fa-brands fa-html5"></i></div>
+                <div class="tecnologias" id="css"><i class="fa-brands fa-css3-alt"></i></div>
+                <div class="tecnologias" id="js"><i class="fa-brands fa-square-js"></i></div>
+            </div>
+        </div>
+    </section>
+    <section class="meus-projetos">
+            <div class="conteudos-projetos">
+                <div class="txt-projeto">
+                    <h2>Meus projetos</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus laudantium impedit, ab, quo doloribus molestias</p>
                 </div>
-                <div class="tecnologias">
-                    <div class="html" id="ex">
-                        <i class="fa-brands fa-html5"></i>
-                        <p id="cont-ecrito">Possu conhesimento de Html5 e suas diverssas tegs,</p>
+                <div class="conteiner-projetos">
+                    <div class="projeto" id="pj1">
+                        <div class="informacao-pj">
+                            <p id="tema">Wab Projeto</p>
+                            <p id="nome-pj">Projeto landin Page</p>
+                        </div>
+                        <div class="imagem-projeto">
+                            <img src="imagens/LandingPage-pj.png" alt="">
+                        </div>
                     </div>
-                    <div class="css"  id="ex">
-                        <i class="fa-brands fa-css3-alt"></i>
-                        <p  id="cont-ecrito">Possu conhesimento de Css3 conhesimento como grid,flex e flex box, responsivo etc.</p>
-                    </div>
-                    <div class="js"  id="ex">
-                        <i class="fa-brands fa-square-js"></i>
-                        <p  id="cont-ecrito">Possu conhesimento de Java Script basico para avançado conhecimento de estutura da dados em js alem de conhecimento com o manipulação do DOM junto com conhecimento de json </p>
+                    <div class="projeto" id="pj2">
+                        <div class="informacao-pj">
+                            <p id="tema">Wab Projeto</p>
+                            <p id="nome-pj">Projeto landin Page</p>
+                        </div>
+                        <div class="imagem-projeto">
+                            <img src="imagens/catalogo.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
 
-        </section>
-
-
-        <section id="projetos" class="conteudo-projetos">
-            <div class="text-projeto">
-                <h2>Meu Projetos desenvolvido e em desivolvimento</h2>
-                <p>Aqui tem meus projetos onde você pode visitar o site e ver o código</p>
-            </div>
-            <div class="conteiner">
-                <div class="projetos1" id="pj">
-                    <div class="mais">
-                        <div class="info-txt">
-                            <p id="sobre-site">Wab Site</p>
-                            <p id="nome-site">Pagina de Landing Page</p>
-                        </div>
-                        <div class="codigo">
-                            <a href=""><i class="fa-solid fa-code"></i>Ver código</a>
-                        </div>
-                    </div>
-                    <div class="image-pj"><img src="imagens/LandingPage-pj.png" alt=""></div>
-                </div>
-                <div class="projetos2" id="pj">
-                    <div class="mais">
-                        <div class="info-txt">
-                            <p id="sobre-site">Wab Site</p>
-                            <p id="nome-site">Pagina de catalogo de controlhes</p>
-                        </div>
-                        <div class="codigo">
-                            <a href=""><i class="fa-solid fa-code"></i>Ver código</a>
-                        </div>
-                    </div>
-                    <div class="image-pj"><img src="imagens/catalogo.png" alt=""></div>
-                </div>
-                <div class="projetos3" id="pj">
-                    <div class="mais">
-                        <div class="info-txt">
-                            <p id="sobre-site">Wab Site</p>
-                            <p id="nome-site">Pagina de login</p>
-                        </div>
-                        <div class="codigo">
-                            <a href=""><i class="fa-solid fa-code"></i>Ver código</a>
-                        </div>
-                    </div>
-                    <div class="image-pj"><img src="imagens/login-pj.png" alt=""></div>
-                </div>
-                <div class="projetos4" id="pj">
-                    <div class="mais">
-                        <div class="info-txt">
-                            <p id="sobre-site">Wab Site</p>
-                            <p id="nome-site">Pagina de lista de tarefa </p>
-                        </div>
-                        <div class="codigo">
-                            <a href=""><i class="fa-solid fa-code"></i>Ver código</a>
-                        </div>
-                    </div>
-                    <div class="image-pj"><img src="imagens/toDoList.png" alt=""></div>
-                </div>
-            </div>
-            <div class="ver"><a href="" id="ver-mais">Ver mais</a></div>
-        </section>
-
-        <footer class="footer">
-            <div class="conteudo-footer">
-                <div class="contact" id="cont">
-                    <img src="imagens/logo.png" alt="">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere amet officia iste quae. Molestiae, quis fugit modi</p>
-                    <p><i class="fa-brands fa-whatsapp"></i> 9929319323</p>
-                    <p><i class="fa-solid fa-envelope"></i> caiofernandocardoso6@gmail.com</p>
-                </div>
-                <div class="links" id="cont">
-                    <h4>Quick links</h4>
-                    <ul>
-                        <li>fsdfsf</li>
-                        <li>fsfsdfs</li>
-                        <li>fsfsdfs</li>
-                        <li>fsfdfdfsf</li>
-                    </ul>
-                </div>
-                <div class="input" id="cont">
-                    <h4>Contact</h4>
-                    <input type="email" name="" id="email" placeholder="Your email address">
-                   <textarea name="" id="msg" cols="30" rows="10" placeholder="Mensage..."></textarea>
-
-                    <input type="submit" value="Enviar" id="envia" >
-          
-                </div>
-            </div>
-        </footer>
-    </main>
+    </section>
   
 
     <script src="scripts/celular.js"></script>

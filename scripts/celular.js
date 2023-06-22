@@ -1,4 +1,4 @@
-const menu =document.querySelector('.menu')
+/*const menu =document.querySelector('.menu')
 const fecharMenu = document.querySelector(".fechar-menu")
 const abrirMenu = document.querySelector(".abrir-menu")
 
@@ -11,5 +11,5 @@ function show(){
 }
 function fechar(){
     menu.style.top = ("-120%")
-}
+}*/
 

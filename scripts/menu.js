@@ -1,4 +1,4 @@
-const menuItens = document.querySelectorAll(".menu a");
+/*const menuItens = document.querySelectorAll(".menu a");
 
 
 menuItens.forEach(item =>{
@@ -14,4 +14,4 @@ function scrollToIdOnClick(event){
     window.scroll({
         top:to -150
     })
-}
+}*/

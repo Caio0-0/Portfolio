@@ -4,5 +4,185 @@ cores:
 
 laranja = #EB5332
 preto = #1C1718
-*/
 
+/*==============================================MENU==============================================*/
+.cabecalho{
+    padding: 13px;
+    margin: auto;
+}
+.icone{
+    display: flex;
+    align-items: center;
+    margin-right: 70px;
+}
+.icone img{
+    width: 40px;
+}
+.icone p{
+    font-size: 1.3em;
+}
+nav{
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    
+}
+nav .abrir-menu{
+    font-size: 1.3em;
+}
+nav .fechar-menu{
+    display: none;
+}
+nav .menu{
+    display: flex;
+    list-style: none;
+}
+nav .menu li a {
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+}
+/*=================================================MENU RESPONSIVO/*=================================================*/
+@media (max-width: 800px) {
+    .cabecalho{
+        background-color: #282834;
+    }
+    nav .menu li{
+        display: none;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #111116;
+        transition: left 1s ease;
+    }
+    nav .menu .fechar-menu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    nav .abrir-menu{
+        display: block;
+    }
+}
+
+@media (max-width:800px) {
+    /*circulo*/
+
+    #circulo{
+        transform: translate(-50%,130%);
+        left: 50%;
+        background-color: #2d2b36;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        border-radius: 50%;
+    }
+/*====================================================HOME========================================================*/
+.home{
+    transform: translate(-50%,-5%);
+    margin-top: 50px;
+    display: flex;
+    width: 85vw;
+    justify-content: space-between;
+    flex-direction: column;
+    position: relative;
+}
+#eu{
+    font-size: 2em;
+    position: relative;
+    color: #a7a7a7;
+}
+#nome{
+    width: 400px;
+    font-size: 3em;
+    position: relative;
+    margin-bottom: 10px;
+}
+#linha{
+    width: 150px;
+    border-top: 3px solid #ffff00;
+    margin-bottom: 10px;
+}
+.servico{
+    margin-top: 25px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+#sobreM-txt{
+    width: 420px;
+    color: #a7a7a7;
+    font-size: 1.1em;
+}
+.minha-foto {
+    display: none;
+}
+.minha-foto-celo{
+    display: flex;
+}
+.minha-foto-celo img{
+    width: 200px;
+    margin: auto;
+}
+/*===================================================MINHAS REDES=======================================================*/
+    
+    .contact{
+
+        position: absolute;
+        top: 113%;
+        left: 5%;
+        display: flex;
+        background-color: #423F50;
+        width: 85vw;
+        margin-bottom: 30px;
+        margin: auto;
+        justify-content: center;
+        height: 120px;
+        box-shadow: 0px 0px 70px #201f278f;
+    }
+    .rede img{
+        width: 70px;
+    }
+    .rede{
+        width: 17vw;
+    }
+/*-------------------------------------------MINHA EXPERIENCIA-------------------------------------------------------*/
+    .experiencia{
+        width: 85vw;
+    }
+    .icone-experiencia{
+        gap: 20px;
+        margin-top: 20px;
+        font-size: 7em;
+    }
+    .tecnologias{
+        text-align: center;
+        transition: 1s ease;
+        background-color: #423F50;
+        width: 40vw;
+        height: 150px;
+    }
+/*--------------------------------------------------Meus projetos---------------------------------------------------*/
+    .conteiner-projetos{
+
+        grid-template-areas: 
+        "p1" 
+        "p2";
+    }
+    .imagem-projeto img{
+        width: 85vw
+    }
+    .projeto{
+        margin-top: 35px;
+    }
+}
