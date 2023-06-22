@@ -119,8 +119,11 @@ nav .menu li a {
     width: 300px;
     margin-bottom: 30px;
 }
+.sobre-mim{
+    width: 40vw;
+}
 #sobreM-txt{
-    width: 420px;
+   
     color: #a7a7a7;
     font-size: 1.1em;
 }
