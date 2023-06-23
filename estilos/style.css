@@ -29,13 +29,11 @@ body{
     display: none;
 }
 .home{
-    transform: translate(-50%,0%);
-    left: 50%;
+    margin: auto;
     margin-top: 50px;
     display: flex;
     width: 85vw;
     justify-content: space-between;
-    position: relative;
 }
 
 .sobre-mim{
@@ -86,17 +84,13 @@ body{
 }
 /*===================================================MINHAS REDES=======================================================*/
 .contact{
-    position: absolute;
-    top: 95%;
-    left: 6.81%;
     display: flex;
     background-color: #423F50;
-    width: 85.2vw;
-    margin-bottom: 30px;
+    box-shadow: 10px 10px 20px 10px #23222b79;
     margin: auto;
+    width: 1000px;
+    height: 100px;
     justify-content: center;
-    height: 120px;
-    box-shadow: 0px 0px 70px #201f278f;
 }
 .conteiner{
     display: grid;

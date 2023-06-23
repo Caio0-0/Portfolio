@@ -7,6 +7,7 @@ preto = #1C1718
 
 /*==============================================MENU==============================================*/
 .cabecalho{
+    width: 94vw;
     padding: 13px;
     margin: auto;
 }
@@ -49,6 +50,7 @@ nav .menu li a {
 /*=================================================MENU RESPONSIVO/*=================================================*/
 @media (max-width: 800px) {
     .cabecalho{
+        width: 90vw;
         background-color: #282834;
     }
     nav .menu li{
@@ -77,10 +79,13 @@ nav .menu li a {
 }
 
 @media (max-width:800px) {
+    body{
+        background: linear-gradient(#423F50 845px,#2d2b36 600px );
+    }
     /*circulo*/
 
     #circulo{
-        transform: translate(-50%,130%);
+        transform: translate(-50%,140%);
         left: 50%;
         background-color: #2d2b36;
         width: 300px;
@@ -89,67 +94,55 @@ nav .menu li a {
         border-radius: 50%;
     }
 /*====================================================HOME========================================================*/
-.home{
-    transform: translate(-50%,-5%);
-    margin-top: 50px;
-    display: flex;
-    width: 85vw;
-    justify-content: space-between;
-    flex-direction: column;
-    position: relative;
-}
-#eu{
-    font-size: 2em;
-    position: relative;
-    color: #a7a7a7;
-}
-#nome{
-    width: 400px;
-    font-size: 3em;
-    position: relative;
-    margin-bottom: 10px;
-}
-#linha{
-    width: 150px;
-    border-top: 3px solid #ffff00;
-    margin-bottom: 10px;
-}
-.servico{
-    margin-top: 25px;
-    width: 300px;
-    margin-bottom: 30px;
-}
+    .home{
+        margin-top: 50px;
+        display: flex;
+        width: 85vw;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    #eu{
+        font-size: 2em;
+        position: relative;
+        color: #a7a7a7;
+    }
+    #nome{
+        width: 400px;
+        font-size: 3em;
+        position: relative;
+        margin-bottom: 10px;
+    }
+    #linha{
+        width: 150px;
+        border-top: 3px solid #ffff00;
+        margin-bottom: 10px;
+    }
+    .servico{
+        margin-top: 25px;
+        width: 300px;
+        margin-bottom: 30px;
+    }
 
-#sobreM-txt{
-    width: 50vw;
-    color: #a7a7a7;
-    font-size: 1.1em;
-}
-.minha-foto {
-    display: none;
-}
-.minha-foto-celo{
-    display: flex;
-}
-.minha-foto-celo img{
-    width: 200px;
-    margin: auto;
-}
+    #sobreM-txt{
+        width: 50vw;
+        color: #a7a7a7;
+        font-size: 1.1em;
+    }
+    .minha-foto {
+        display: none;
+    }
+    .minha-foto-celo{
+        display: flex;
+    }
+    .minha-foto-celo img{
+        width: 200px;
+        margin: auto;
+    }
 /*===================================================MINHAS REDES=======================================================*/
     
     .contact{
-
-        position: absolute;
-        top: 113%;
-        left: 5%;
-        display: flex;
-        background-color: #423F50;
-        width: 85vw;
-        margin-bottom: 30px;
         margin: auto;
-        justify-content: center;
-        height: 120px;
-        box-shadow: 0px 0px 70px #201f278f;
+        width: 400px;
     }
     .rede img{
         width: 70px;
