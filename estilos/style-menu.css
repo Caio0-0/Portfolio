@@ -7,8 +7,7 @@ preto = #1C1718
 
 /*==============================================MENU==============================================*/
 .cabecalho{
-    width: 94vw;
-    padding: 13px;
+    
     margin: auto;
 }
 .icone{
@@ -50,7 +49,6 @@ nav .menu li a {
 /*=================================================MENU RESPONSIVO/*=================================================*/
 @media (max-width: 800px) {
     .cabecalho{
-        width: 90vw;
         background-color: #282834;
     }
     nav .menu li{
@@ -85,7 +83,7 @@ nav .menu li a {
     /*circulo*/
 
     #circulo{
-        transform: translate(-50%,140%);
+        transform: translate(-50%,155%);
         left: 50%;
         background-color: #2d2b36;
         width: 300px;
@@ -95,7 +93,6 @@ nav .menu li a {
     }
 /*====================================================HOME========================================================*/
     .home{
-        left: 40%;
         margin-top: 50px;
         display: flex;
         width: 85vw;

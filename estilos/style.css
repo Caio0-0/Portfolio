@@ -6,7 +6,7 @@
 
 }
 body{
-    background: linear-gradient(#423F50 700px,#2d2b36 300px );
+    background: linear-gradient(#423F50 730px,#2d2b36 300px );
     color: white;
     font-family: 'Quicksand', sans-serif;
 
@@ -19,6 +19,8 @@ body{
     transform: translate(-50%,0%);
     left: 50%;
     background-color: #2d2b36;
+    background-size: cover;
+    background-attachment: fixed;
     width: 500px;
     height: 500px;
     position: absolute;
@@ -30,8 +32,6 @@ body{
 }
 .home{
     margin: auto;
-    transform: translate(-50%,0%);
-    left: 50%;
     margin-top: 50px;
     display: flex;
     width: 85vw;
@@ -133,14 +133,20 @@ body{
 }
 /*----------------------------------------------MINHA EXPERIENCIA-------------------------------------------------------*/
 .minha-experiencia{
+    display: flex;
+    justify-content: center;
     margin: auto;
+    height: 100vh;
 }
 .experiencia{
+
     margin: auto;
     display: flex;
     flex-direction: column;
-    padding-top: 170px;
     width: 85vw;
+}
+.conteudo-txt {
+    margin-bottom:50px ;
 }
 .conteudo-txt h2{
     font-size: 3em;
