@@ -50,6 +50,7 @@ nav .menu li a {
 @media (max-width: 800px) {
     .cabecalho{
         background-color: #282834;
+        width: 100vw;
     }
     nav .menu li{
         display: none;
@@ -119,11 +120,9 @@ nav .menu li a {
     width: 300px;
     margin-bottom: 30px;
 }
-.sobre-mim{
-    width: 40vw;
-}
+
 #sobreM-txt{
-   
+    width: 50vw;
     color: #a7a7a7;
     font-size: 1.1em;
 }
