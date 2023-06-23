@@ -78,7 +78,7 @@ nav .menu li a {
 
 @media (max-width:800px) {
     body{
-        background: linear-gradient(#423F50 900px,#2d2b36 600px );
+        background: linear-gradient(#423F50 ,#2d2b36 );
     }
     /*circulo*/
 
@@ -95,6 +95,7 @@ nav .menu li a {
     .home{
         margin-top: 20px;
         display: flex;
+        height: 105vh;
         width: 85vw;
         justify-content: space-between;
         flex-direction: column;
@@ -139,6 +140,8 @@ nav .menu li a {
 /*===================================================MINHAS REDES=======================================================*/
     
     .contact{
+        top: 50px;
+        position: relative;
         margin: auto;
         width: 85vw;
     }
@@ -165,11 +168,16 @@ nav .menu li a {
         height: 150px;
     }
 /*--------------------------------------------------Meus projetos---------------------------------------------------*/
+    .meus-projetos{
+        height: 270vh;
+    }
     .conteiner-projetos{
 
         grid-template-areas: 
         "p1" 
-        "p2";
+        "p2"
+        "p3"
+        "p4";
     }
     .imagem-projeto img{
         width: 85vw

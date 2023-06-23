@@ -6,7 +6,9 @@
 
 }
 body{
-    background: linear-gradient(#423F50 730px,#2d2b36 300px );
+    background: linear-gradient(68.8deg,#423F50 ,#272631);
+    background-attachment: fixed;
+    background-size: cover;
     color: white;
     font-family: 'Quicksand', sans-serif;
 
@@ -31,10 +33,12 @@ body{
     display: none;
 }
 .home{
+    
     margin: auto;
     margin-top: 50px;
     display: flex;
     width: 85vw;
+    height: 70vh;
     justify-content: space-between;
     position: relative;
 }
@@ -57,7 +61,7 @@ body{
 }
 #linha{
     width: 170px;
-    border-top: 3px solid #ffff00;
+    border-top: 3px solid #f3b727;
     margin-bottom: 10px;
 }
 .servico{
@@ -91,6 +95,8 @@ body{
     background-color: #423F50;
     box-shadow: 10px 10px 20px 10px #23222b79;
     margin: auto;
+    position: relative;
+    top: 50px;
     width: 85vw;
     height: 100px;
     justify-content: center;
@@ -133,13 +139,15 @@ body{
 }
 /*----------------------------------------------MINHA EXPERIENCIA-------------------------------------------------------*/
 .minha-experiencia{
+    background: linear-gradient(68.8deg,#2d2b36,#1b1a20);
+    background-attachment: fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     margin: auto;
-    height: 100vh;
+    height: 120vh;
 }
 .experiencia{
-
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -177,11 +185,11 @@ body{
 }
 
 #html:hover{
-    color: #bd5833;
+    color: #e56027;
     transition: 1s ease;
 }
 #css:hover{
-    color: #3742df;
+    color: #146cad;
     transition: 1s ease;
 }
 #js:hover{
@@ -190,12 +198,13 @@ body{
 }
 /*--------------------------------------------------Meus projetos---------------------------------------------------*/
 .meus-projetos{
-    
-    height: 100vh;
-    background-color: #423F50;
+    height: 177vh;
+    background: linear-gradient(68.8deg,#423F50 ,#272631);
+    background-attachment: fixed;
+    background-size: cover;
 }
 .conteudos-projetos{
-    padding-top: 50px;
+    padding-top: 40px;
     width: 85vw;
     margin: auto;
 }
@@ -206,16 +215,43 @@ body{
 }
 .txt-projeto p{
     font-size: 1.1;
+    color:#a7a7a7 ;
     margin-bottom: 50px;
     
 }
 .informacao-pj{
+    display: flex;
+    justify-content: space-between;
     padding-top: 20px;
     margin-bottom: 5px;
     margin-left: 25px;
 }
+.codigo{ 
+    display: flex;
+    transition: 1s ease;
+    margin-right: 10px;
+}
+.codigo a{
+    display: flex;
+    text-decoration: none;
+    gap: 5px;
+    align-items: center;
+    padding: 10px;
+    color: #f3b727;
+}
+.codigo:hover{
+    border-bottom:1px solid #f3b727;
+    transform: scale(1);
+    border-radius: 10px 0px;
+    background-color: #423F50;
+    transition: 1s ease;
+}
+.codigo i{
+    font-size: 2em;
+    color: #f3b727;
+}
 #tema{
-    color: #ffff00;
+    color: #f3b727;
     font-size: 1em;
     margin-bottom: 10px;
 }
@@ -223,7 +259,7 @@ body{
     margin-bottom: 10px;
 }
 .projeto{
-    margin-top: 20px;
+    margin-top: 40px;
     margin-right: 70px;
     background-color: #2d2b36;
     box-shadow: 10px 10px 10px #1b1a2071;
@@ -241,7 +277,9 @@ body{
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-    "p1 p2";
+    "p1 p2"
+    "p3 p4";
+
 }
 #pj1{
     grid-area: p1;
@@ -249,7 +287,33 @@ body{
 #pj2{
     grid-area: p2;
 }
+#pj3{
+    grid-area: p3;
+}
+#pj4{
+    grid-area: p4;
+}
 .imagem-projeto img{
     width: 40vw
+}
+.butao-mais{
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+.mais-projetos{
+    color: #f3b727;
+    font-size: 1.1em;
+    padding: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #ffffff00;
+    border: 1px solid #f3b727;
+    transition: 1s ease;
+}
+.mais-projetos:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
+    transform: scale(1.1);
+    transition: 1s ease;
 }
 /*-------------------------------------------------FOOTER---------------------------------------------------------*/
