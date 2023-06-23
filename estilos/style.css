@@ -30,10 +30,13 @@ body{
 }
 .home{
     margin: auto;
+    transform: translate(-50%,0%);
+    left: 50%;
     margin-top: 50px;
     display: flex;
     width: 85vw;
     justify-content: space-between;
+    position: relative;
 }
 
 .sobre-mim{
@@ -88,7 +91,7 @@ body{
     background-color: #423F50;
     box-shadow: 10px 10px 20px 10px #23222b79;
     margin: auto;
-    width: 1000px;
+    width: 85vw;
     height: 100px;
     justify-content: center;
 }
@@ -130,7 +133,7 @@ body{
 }
 /*----------------------------------------------MINHA EXPERIENCIA-------------------------------------------------------*/
 .minha-experiencia{
-    height: 100vh;
+    margin: auto;
 }
 .experiencia{
     margin: auto;
@@ -149,7 +152,7 @@ body{
 .icone-experiencia{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    left: 50%;
     gap: 100px;
     font-size: 10em;
 }
