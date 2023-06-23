@@ -120,12 +120,12 @@ body{
     align-items: center;
     justify-content: center;
     background-color: #2d2b36;
-    width: 15vw;
-    height: 60px;
+    width: 85px;
+    height: 85px;
     transition: 1s ease;
 }
-.rede img{
-    width: 100px;
+.rede i{
+    font-size: 5em;
 }
 .rede:hover{
     transition: 1s ease;

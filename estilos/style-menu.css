@@ -7,7 +7,7 @@ preto = #1C1718
 
 /*==============================================MENU==============================================*/
 .cabecalho{
-    
+    padding: 10px;
     margin: auto;
 }
 .icone{
@@ -93,7 +93,7 @@ nav .menu li a {
     }
 /*====================================================HOME========================================================*/
     .home{
-        margin-top: 50px;
+        margin-top: 20px;
         display: flex;
         width: 85vw;
         justify-content: space-between;
@@ -140,7 +140,7 @@ nav .menu li a {
     
     .contact{
         margin: auto;
-        width: 350px;
+        width: 85vw;
     }
     .rede img{
         width: 70px;
