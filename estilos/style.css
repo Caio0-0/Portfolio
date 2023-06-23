@@ -6,9 +6,7 @@
 
 }
 body{
-    background-image: linear-gradient( 30.15deg,#423F50,#2d2b36);
-    background-size: cover;
-    background-attachment: fixed;
+    background: linear-gradient(#423F50 700px,#2d2b36 300px );
     color: white;
     font-family: 'Quicksand', sans-serif;
 
@@ -138,10 +136,6 @@ body{
 }
 /*----------------------------------------------MINHA EXPERIENCIA-------------------------------------------------------*/
 .minha-experiencia{
-    background-image: linear-gradient( 30.15deg,#201f278f,rgb(28, 27, 34));
-    background-size: cover;
-    width: 100vw;
-    background-attachment: fixed;
     height: 100vh;
 }
 .experiencia{
@@ -193,11 +187,8 @@ body{
 }
 /*--------------------------------------------------Meus projetos---------------------------------------------------*/
 .meus-projetos{
-    background-image: linear-gradient( 30.15deg,#423F50,#2d2b36);
-    background-size: cover;
-    background-attachment: fixed;
-    
     height: 100vh;
+    background-color: #423F50;
 }
 .conteudos-projetos{
     width: 85vw;

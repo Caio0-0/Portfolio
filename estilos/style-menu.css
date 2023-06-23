@@ -50,7 +50,6 @@ nav .menu li a {
 @media (max-width: 800px) {
     .cabecalho{
         background-color: #282834;
-        width: 100vw;
     }
     nav .menu li{
         display: none;
