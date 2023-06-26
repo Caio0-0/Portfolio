@@ -109,7 +109,7 @@ body{
     grid-template-columns:0.1fr 0.1fr 0.1fr ;
     grid-template-areas: 
     "r1 r2 r3";
-    gap: 40px;
+    gap: 30px;
 
 }
 #link{
@@ -124,8 +124,7 @@ body{
 .rede{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background-color: #2d2b36;
+    justify-content: space-around;
     width: 85px;
     height: 85px;
     transition: 1s ease;
@@ -315,5 +314,8 @@ body{
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.288);
     transform: scale(1.1);
     transition: 1s ease;
+}
+.mais-projetos:active{
+    transform: scale(0.9);
 }
 /*-------------------------------------------------FOOTER---------------------------------------------------------*/

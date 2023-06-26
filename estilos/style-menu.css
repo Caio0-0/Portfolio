@@ -83,7 +83,7 @@ nav .menu li a {
     /*circulo*/
 
     #circulo{
-        transform: translate(-50%,155%);
+        transform: translate(-50%,150%);
         left: 50%;
         background-color: #2d2b36;
         width: 300px;
@@ -97,6 +97,7 @@ nav .menu li a {
         display: flex;
         height: 105vh;
         width: 85vw;
+     
         justify-content: space-between;
         flex-direction: column;
     }
@@ -135,7 +136,9 @@ nav .menu li a {
     }
     .minha-foto-celo img{
         width: 200px;
+        position: relative;
         margin: auto;
+        top: -20%;
     }
 /*===================================================MINHAS REDES=======================================================*/
     
