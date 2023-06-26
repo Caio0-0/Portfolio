@@ -169,25 +169,31 @@ body{
 .conteudo-txt p{
     color: #a7a7a7;
 }
-.icone-experiencia{
+.icone-experiencia {
     display: flex;
     justify-content: space-between;
     left: 50%;
     gap: 100px;
+}
+.tecnologias i{
     font-size: 10em;
+}
+.tecnologias p{
+    padding: 10px;
+    font-size: 1.2em;
 }
 .tecnologias{
     text-align: center;
     transition: 1s ease;
     background-color: #423F50;
-    width: 30vw;
-    height: 34vh;
+    width: 600px;
     
 }
 .tecnologias:hover{
     transform:scale(1.1);
     box-shadow: 10px 10px 10px #100f1388;
     transition: 1s ease;
+   
 }
 
 #html:hover{

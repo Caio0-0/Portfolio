@@ -159,15 +159,25 @@ nav .menu li a {
         margin: auto;
     }
     .icone-experiencia{
+        display: flex;
+        flex-direction: column;
         gap: 20px;
-
+    }
+    .tecnologias i {
+        padding: 20px;
         font-size: 7em;
     }
+    .tecnologias p{
+        font-size: 1.1em;
+    }
     .tecnologias{
+       
+        display: flex;
+        align-items: center;
         text-align: center;
         transition: 1s ease;
         background-color: #423F50;
-        width: 40vw;
+        width: 85vw;
         height: 150px;
     }
 /*--------------------------------------------------Meus projetos---------------------------------------------------*/
