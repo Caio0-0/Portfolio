@@ -11,7 +11,14 @@ body{
     background-size: cover;
     color: white;
     font-family: 'Quicksand', sans-serif;
-
+}
+::-webkit-scrollbar{
+    width: 10px;
+    background-image: linear-gradient(67.7deg,#423f50,#272631);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background-color: #f3b727;
 }
 /*circulo*/
 .circulo{
@@ -319,3 +326,17 @@ body{
     transform: scale(0.9);
 }
 /*-------------------------------------------------FOOTER---------------------------------------------------------*/
+.ceta{
+    position: fixed;
+    display: none;
+    left: 95%;
+    top: 85%;
+
+  
+}
+.ceta i {
+    background-color: #f3b727;
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 1.5em;
+}

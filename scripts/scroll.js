@@ -1,5 +1,3 @@
-/*const target = document.querySelectorAll("[data-anime]")
-const animationClass = 'animation'
 
 function animeScroll(){
     const windowTop = window.pageYOffset+((window.innerHeight*3)/4)
@@ -18,4 +16,4 @@ if(target.length){
     window.addEventListener('scroll',function(){
         animeScroll()
     })
-}*/
+}
